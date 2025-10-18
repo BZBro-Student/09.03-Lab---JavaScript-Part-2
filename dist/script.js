@@ -1,5 +1,5 @@
 function isStrongPassword(password) {
-    if (password.length =< 8) {
+    if (password.length <= 8) {
         alert("Password is too short! (ಥ﹏ಥ)");
         return false;
     } else if (password.includes("password")) {
